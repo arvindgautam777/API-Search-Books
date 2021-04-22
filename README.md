@@ -9,6 +9,11 @@ Implementation.
 1. Install the required packages
 2. I have used the OOP approach.
 3. app.py is the main script with the driver code
-4. books.py has the actual logic implementation.
-5. run.py has the script to make the JSON request to the API.
-5. Postman or curl can also be used to post the JSON request to the API
+        - Flask api code is inside app.py
+        - used 2 route functions
+        - one handles http request with row number as a parameter
+        - second handles the http request with json data
+5. books.py has the actual logic implementation
+        - 
+7. run.py has the script to make the JSON request to the API.
+8. Postman or curl can also be used to post the JSON request to the API
