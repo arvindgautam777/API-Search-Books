@@ -13,7 +13,12 @@ Implementation.
         - used 2 route functions
         - one handles http request with row number as a parameter
         - second handles the http request with json data
-5. books.py has the actual logic implementation
-        - 
+5. books.py has the actual logic implementation for 1st API
+        - Has the class with the actual logic
+        - creates the pandas data frame and returns specific book details based on rows passed
+6. search_for_books.py has actual logic for 2nd API
+        - Has the class with actual logic
+        - pandas dataframe is created and filter condition is applied based on the column name and its value
+        - return the desired filtered output
 7. run.py has the script to make the JSON request to the API.
 8. Postman or curl can also be used to post the JSON request to the API
